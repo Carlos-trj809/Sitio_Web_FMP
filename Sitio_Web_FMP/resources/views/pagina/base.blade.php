@@ -86,7 +86,7 @@
                     <ul class="navigation-menu py-1 color-fondo " >
                         
                         <li class="has-submenu p-1 center-text">
-                            <a href="index1.html" class="color-boton rounded text-left" >
+                            <a href="{{ asset('/') }}" class="color-boton rounded text-left" >
                                 &nbsp;&nbsp;&nbsp;&nbsp;<i class=" mdi mdi-home mdi-24px"></i>Inicio </a>
                         </li>
 
@@ -97,10 +97,10 @@
                                 <li>
                                     <ul>
                                         <li>
-                                            <a href="#">Misión y Visión</a>
+                                            <a href="{{ asset('MisionVision') }}">Misión y Visión</a>
                                         </li>                                           
                                         <li>
-                                            <a href="#">Directorio</a>
+                                            <a href="">Directorio</a>
                                         </li>
                                     </ul>
                                 </li>
