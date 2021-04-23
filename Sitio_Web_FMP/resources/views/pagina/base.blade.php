@@ -86,12 +86,12 @@
                     <ul class="navigation-menu py-1 color-fondo " >
                         
                         <li class="has-submenu p-1 center-text">
-                            <a href="{{ asset('/') }}" class="color-boton rounded text-left" >
-                                &nbsp;&nbsp;&nbsp;&nbsp;<i class=" mdi mdi-home mdi-24px"></i>Inicio </a>
+                            <a href="{{ asset('/') }}" class=" rounded text-left" >
+                                <i class=" mdi mdi-home mdi-24px"></i>Inicio </a>
                         </li>
 
                         <li class="has-submenu p-1">
-                            <a href="#" class="color-boton rounded btn text-left">
+                            <a href="#" class="rounded btn text-left">
                                  <i class="mdi mdi-account-multiple mdi-24px"></i>Nosotros <div class="arrow-down"></div></a>
                             <ul class="submenu">
                                 <li>
@@ -100,7 +100,7 @@
                                             <a href="{{ asset('MisionVision') }}">Misión y Visión</a>
                                         </li>                                           
                                         <li>
-                                            <a href="">Directorio</a>
+                                            <a href="#">Directorio</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -112,7 +112,7 @@
                         </li>
 
                         <li class="has-submenu p-1 color-top">
-                            <a href="#" class="color-boton rounded btn text-left btn-sm">
+                            <a href="#" class=" rounded btn text-left btn-sm">
                                 <i class=" mdi mdi-library mdi-24px"></i>
                                 Academicos 
                                 <div class="arrow-down"></div>
@@ -137,7 +137,7 @@
                         </li>
 
                         <li class="has-submenu p-1">
-                            <a href="#" class="color-boton rounded btn text-left">
+                            <a href="#" class="rounded btn text-left">
                                  <i class="mdi mdi-file-account mdi-24px"></i>Administrativo<div class="arrow-down"></div></a>
                             <ul class="submenu megamenu">
                                 <li>
@@ -177,7 +177,7 @@
                         </li>   
 
                         <li class="has-submenu p-1">
-                            <a href="#"  class="color-boton rounded btn text-left">
+                            <a href="#"  class="rounded btn text-left">
                                 <i class="mdi mdi-file-account mdi-24px"></i>
                                 Transparencia
                             </a>
