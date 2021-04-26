@@ -111,28 +111,58 @@
                             </ul>
                         </li>
 
-                        <li class="has-submenu p-1 color-top">
-                            <a href="#" class=" rounded btn text-left btn-sm">
-                                <i class=" mdi mdi-library mdi-24px"></i>
-                                Academicos 
-                                <div class="arrow-down"></div>
-                            </a>
-                            <ul class="submenu">
-                                <li>
-                                    <a href="#">Ciencias de la educacion</a>
+                        <li class="has-submenu p-1">
+                            <a href="#">
+                            <i class="dripicons-jewel"></i>Academicos <div class="arrow-down"></div></a>
+                            <ul class="submenu">    
+                                <li class="has-submenu">
+                                    <a href="#">Académica<div class="arrow-down"></div></a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#">Ciencias de la educacion</a>
+                                        </li>                                      
+                                    </ul>
+                                </li>                            
+                                <li class="has-submenu">
+                                    <a href="#">Departamentos <div class="arrow-down"></div></a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#">Ciencias de la educacion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Ciencias Agronomicas</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Ciencias Economicas</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Informática</a>
+                                        </li>     
+                                        <li>
+                                            <a href="#">Postgrado</a>
+                                        </li>                                       
+                                    </ul>
+                                </li>                                
+                                <li class="has-submenu">
+                                    <a href="#">Investigacion <div class="arrow-down"></div></a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#">Centro de estudio de Informacion Publica (CEO)</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Centro de Investigacion Ambiental</a>
+                                        </li>                        
+                                    </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Ciencias Agronomicas</a>
-                                </li>
-                                <li>
-                                    <a href="#">Ciencias Economicas</a>
-                                </li>
-                                <li>
-                                    <a href="#">Informática</a>
-                                </li>  
-                                <li>
-                                    <a href="#">Postgrado</a>
-                                </li>                                    
+                                <li class="has-submenu">
+                                    <a href="#">Proyección Social</a>
+                                </li>   
+                                <li class="has-submenu">
+                                    <a href="#">Biblioteca</a>
+                                </li> 
+                                <li class="has-submenu">
+                                    <a href="#">CELEUES</a>
+                                </li> 
                             </ul>
                         </li>
 
@@ -174,7 +204,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                        </li>   
+                        </li>     
 
                         <li class="has-submenu p-1">
                             <a href="#"  class="rounded btn text-left">
