@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('MisionVision', function () {
     return view('Nosotros.misionVision');
 });
+
+Route::get('Directorio', function () {
+    return view('Nosotros.directorio');
+});

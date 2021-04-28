@@ -67,7 +67,7 @@
             </div>            
             <!-- end Topbar -->          
                 
-            <div class="container-fluid py-1">
+            <div class="container-fluid">
                 <div class="row align-items-center color-top ocultar-div">
                     <div class="col-2">
                         <div class="col-2">
@@ -100,7 +100,7 @@
                                             <a href="{{ asset('MisionVision') }}">Misión y Visión</a>
                                         </li>                                           
                                         <li>
-                                            <a href="#">Directorio</a>
+                                            <a href="{{ asset('Directorio') }}">Directorio</a>
                                         </li>
                                     </ul>
                                 </li>
