@@ -113,15 +113,10 @@
 
                         <li class="has-submenu p-1">
                             <a href="#">
-                            <i class="dripicons-jewel"></i>Academicos <div class="arrow-down"></div></a>
+                            <i class="mdi mdi-book-open-page-variant mdi-24px"></i>Academicos <div class="arrow-down"></div></a>
                             <ul class="submenu">    
                                 <li class="has-submenu">
-                                    <a href="#">Académica<div class="arrow-down"></div></a>
-                                    <ul class="submenu">
-                                        <li>
-                                            <a href="#">Ciencias de la educacion</a>
-                                        </li>                                      
-                                    </ul>
+                                    <a href="#">Administracion Académica</a>                                    
                                 </li>                            
                                 <li class="has-submenu">
                                     <a href="#">Departamentos <div class="arrow-down"></div></a>
@@ -168,7 +163,7 @@
 
                         <li class="has-submenu p-1">
                             <a href="#" class="rounded btn text-left">
-                                 <i class="mdi mdi-file-account mdi-24px"></i>Administrativo<div class="arrow-down"></div></a>
+                                 <i class="mdi mdi-clipboard-text mdi-24px"></i>Administrativo<div class="arrow-down"></div></a>
                             <ul class="submenu megamenu">
                                 <li>
                                     <ul>
