@@ -1,4 +1,4 @@
-@extends('pagina/base')
+@extends('Pagina/base')
 @section('appcss')
 <!-- App favicon -->
 <link rel="shortcut icon" href="images/favicon.ico">

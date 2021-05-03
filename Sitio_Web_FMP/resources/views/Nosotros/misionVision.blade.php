@@ -1,4 +1,4 @@
-@extends('pagina/baseOnlyHtml')
+@extends('Pagina/baseOnlyHtml')
 
 @section('container')
 <div class="wrapper">
