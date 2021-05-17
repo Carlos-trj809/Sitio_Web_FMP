@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8" />
-        <title>FMP - Universidad de El Salvador</title><!-- Required meta tags -->
+        <title>Facultad Multidisciplinaria Paracentral</title><!-- Required meta tags -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="UTI" />
@@ -260,7 +260,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        {{ date('Y') }} &copy; Facultad Multidisciplinaria Paracentral - <a href="" class="text-white-50">Universidad de El Salvador</a> 
+                        {{ date('Y') }} &copy; Facultad Multidisciplinaria Paracentral - <a href="https://www.ues.edu.sv/" class="text-white-50">Universidad de El Salvador</a> 
                     </div>
                 </div>
             </div>

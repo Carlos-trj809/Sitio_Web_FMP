@@ -93,19 +93,16 @@
                         </div>
                         <a href="Noticia.html" class="btn btn-light mt-3">Leer mas...</a>
                     </div>
-                    </br>
                 </div> <!-- end card-box -->
             </div><!-- end col -->
             <div class="col-xl-4">                        
                 <div class="card-box "> 
-                    <h1 class="header-title mb-3 text-center">Canales Digitales</h1>
-                    <div class="col">
-                        <a href="" class="btn btn-danger btn-block mt-3 text-left">Campus Virtual</a>
-                        <a href="" class="btn btn-danger btn-block mt-3 text-left">Expediente en linea</a>                      
-                        <a href="" class="btn btn-danger  btn-block mt-3 text-left">Correo institucional</a>                           
-                        <a href="https://www.facebook.com/DistanciaFMP" class="btn btn-danger  btn-block mt-3 text-left">Universidad en linea / Cede Paracentral</a> 
-                        <a href="https://www.facebook.com/celeues" class="btn btn-danger btn-block mt-3 text-left">CELEUES</a>
-                    </div>                                                
+                    <h1 class="header-title mb-3">Canales Digitales</h1>                    
+                    <a href="https://campus.ues.edu.sv/" class="btn btn-danger btn-block mt-3 text-left">Campus Virtual</a>
+                    <a href="https://eel.ues.edu.sv/" class="btn btn-danger btn-block mt-3 text-left">Expediente en linea</a>                      
+                    <a href="https://correo.ues.edu.sv/" class="btn btn-danger  btn-block mt-3 text-left">Correo institucional</a>                           
+                    <a href="https://www.facebook.com/DistanciaFMP" class="btn btn-danger  btn-block mt-3 text-left">Universidad en linea / Cede Paracentral</a> 
+                    <a href="https://www.facebook.com/celeues" class="btn btn-danger btn-block mt-3 text-left">CELEUES</a>
                 </div> <!-- end card-box-->                        
             </div> <!-- end col-->
         </div>
