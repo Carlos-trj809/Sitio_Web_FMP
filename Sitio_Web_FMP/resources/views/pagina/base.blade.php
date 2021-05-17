@@ -212,11 +212,12 @@
                             </a>
                         </li>
 
-                        <i class="has-submenu p-1 text-left float-right">
-                            <a href="#"  class=" btn">
-                                <i class="mdi mdi-facebook-box mdi-36px"></i>
+                        <li class="has-submenu p-1 float-right">
+                            <a href="{{ asset('InicioSesion') }}"  class="rounded btn text-left">
+                                <i class="mdi mdi-account mdi-24px"></i>
+                                Iniciar Sesión
                             </a>
-                        </i>
+                        </li>
                         
                     </ul>
                     <!-- End navigation menu -->

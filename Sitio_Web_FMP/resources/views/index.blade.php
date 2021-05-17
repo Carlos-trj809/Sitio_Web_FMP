@@ -103,6 +103,8 @@
                     <a href="https://correo.ues.edu.sv/" class="btn btn-danger  btn-block mt-3 text-left">Correo institucional</a>                           
                     <a href="https://www.facebook.com/DistanciaFMP" class="btn btn-danger  btn-block mt-3 text-left">Universidad en linea / Cede Paracentral</a> 
                     <a href="https://www.facebook.com/celeues" class="btn btn-danger btn-block mt-3 text-left">CELEUES</a>
+                    <a href="https://es-la.facebook.com/academicaparacentralues/" class="btn btn-danger btn-block mt-3 text-left mdi mdi-facebook-box mdi-16px">   FACEBOOK - FMP</a>
+                    </a>
                 </div> <!-- end card-box-->                        
             </div> <!-- end col-->
         </div>
@@ -169,7 +171,7 @@
                         </div>
                         <div class="col order-last">
                             <p class="header-title">Instituciones</p>
-                            <div class="p-1"><a href="#">Consejo Supeior Universitario</a></div>
+                            <div class="p-1"><a href="#">Consejo Superior Universitario</a></div>
                             <div class="p-1"><a href="#">Asamblea General Universitaria</a></div>
                         </div>
                     </div>                            

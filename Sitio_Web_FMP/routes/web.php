@@ -13,8 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('index');
+});*/
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('InicioSesion', function () {
+    return view('Sesion.inicioSesion');
 });
 
 Route::get('MisionVision', function () {

@@ -7,8 +7,8 @@
         <div class="page-title-alt-bg color-top"></div>
         <div class="page-title-box color-boton py-2 rounded">
             <h2 class="page-title text-white">Facultad Multidisciplinaria Paracentral</h2>
-        </div> 
-        </br>
+        </div>         
+        <div class="my-3"></div>
         <!-- end page title -->
         <div class="card-box">
 
