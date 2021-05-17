@@ -14,12 +14,12 @@
 
             <div class="row">
                 <div class="col-lg-8">
-                    <h4 class="header-title">DEPARTAMENTO DE CIENCIAS ECONOMICAS</h4>
+                    <h4 class="header-title">DEPARTAMENTO DE CIENCIAS AGRONOMICAS</h4>
                     <p class="sub-header">
                         Actualmente el Departamento administra dos carreras de grado presenciales (Ingeniería Agronómica e Ingeniería Agroindustrial)
                     </p>
 
-                    <div class="border p-2 rounded">
+                    <div class="border p-2 rounded border-color-red" >
                             
                         <p class="mb-1 font-weight-bold ">Ingeniería Agronómica	I70304 </p>
                         <p class="text-muted font-13 text-justify">
@@ -95,7 +95,9 @@
             </div>
             <!-- end row -->
 
-        </div> <!-- end card-box -->       
-    <div>
-<div>
+        </div> <!-- end card-box -->
+
+    </div> <!-- end container-->
+</div>
+<!-- end row -->
 @endsection

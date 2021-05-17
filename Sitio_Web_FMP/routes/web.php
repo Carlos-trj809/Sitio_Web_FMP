@@ -24,3 +24,15 @@ Route::get('MisionVision', function () {
 Route::get('Directorio', function () {
     return view('Nosotros.directorio');
 });
+
+Route::get('CienciasAgronomicas', function () {
+    return view('Academicos.Departamentos.CienciasAgronomicas');
+});
+
+Route::get('CienciasEconomicas', function () {
+    return view('Academicos.Departamentos.CienciasEconomicas');
+});
+
+Route::get('CienciasEducacion', function () {
+    return view('Academicos.Departamentos.CienciasEducacion');
+});

@@ -70,8 +70,8 @@
             <div class="container-fluid">
                 <div class="row align-items-center color-top ocultar-div">
                     <div class="col-2">
-                        <div class="col-2">
-                            <a>
+                        <div class="col-2 my-1">
+                            <a href="{{ asset('/') }}">
                                 <img src="images/ues_logo3.svg" alt="logo" height="">
                             </a>
                         </div>
@@ -122,31 +122,34 @@
                                     <a href="#">Departamentos <div class="arrow-down"></div></a>
                                     <ul class="submenu">
                                         <li>
-                                            <a href="#">Ciencias de la educacion</a>
+                                            <a href="{{ asset('CienciasEducacion') }}">Ciencias de la Educación</a>
                                         </li>
                                         <li>
-                                            <a href="#">Ciencias Agronomicas</a>
+                                            <a href="{{ asset('CienciasAgronomicas') }}">Ciencias Agronómicas</a>
                                         </li>
+                                        
                                         <li>
-                                            <a href="#">Ciencias Economicas</a>
+                                            <a href="{{ asset('CienciasEconomicas') }}">Ciencias Económicas</a>
                                         </li>
+                                        
                                         <li>
                                             <a href="#">Informática</a>
                                         </li>     
+
                                         <li>
                                             <a href="#">Postgrado</a>
                                         </li>                                       
                                     </ul>
                                 </li>                                
                                 <li class="has-submenu">
-                                    <a href="#">Investigacion <div class="arrow-down"></div></a>
                                     <ul class="submenu">
+                                        <a href="#">Investigación <div class="arrow-down"></div></a>
                                         <li>
-                                            <a href="#">Centro de estudio de Informacion Publica (CEO)</a>
                                         </li>
+                                        <a href="#">Centro de estudio de Información Publica (CEO)</a>
                                         <li>
-                                            <a href="#">Centro de Investigacion Ambiental</a>
                                         </li>                        
+                                        <a href="#">Centro de Investigación Ambiental</a>
                                     </ul>
                                 </li>
                                 <li class="has-submenu">
@@ -164,7 +167,7 @@
                         <li class="has-submenu p-1">
                             <a href="#" class="rounded btn text-left">
                                  <i class="mdi mdi-clipboard-text mdi-24px"></i>Administrativo<div class="arrow-down"></div></a>
-                            <ul class="submenu megamenu">
+                            <ul class="submenu">
                                 <li>
                                     <ul>
                                         <li>
@@ -173,6 +176,7 @@
                                         <li>
                                             <a href="#">Colecturia</a>
                                         </li>
+                                        
                                         <li>
                                             <a href="#">Comunicaciones</a>
                                         </li>
@@ -256,7 +260,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        2021 &copy; Facultad Multidisciplinaria Paracentral - <a href="" class="text-white-50">Universidad de El Salvador</a> 
+                        {{ date('Y') }} &copy; Facultad Multidisciplinaria Paracentral - <a href="" class="text-white-50">Universidad de El Salvador</a> 
                     </div>
                 </div>
             </div>
