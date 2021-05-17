@@ -17,8 +17,8 @@
         <div class="page-title-alt-bg color-top"></div>
         <div class="page-title-box color-boton py-2 rounded">
             <h2 class="page-title text-white">Facultad Multidisciplinaria Paracentral</h2>
-        </div> 
-        </br>
+        </div>         
+        <div class="my-4"></div>
         <!-- end page title -->               
 
         <div class="row">
@@ -36,23 +36,23 @@
                             </ol>
                             <div class="carousel-inner text-center">
                               <div class="carousel-item active">
-                                 <img src="images/carrusel/image-1.jpeg" alt="Chicago" width="1145" height="800">
+                                 <img src="images/carrusel/image-1.jpeg" class="img-fluid" width="1145" height="800" >
                                  
                               </div>
                               <div class="carousel-item">
-                                <img src="images/carrusel/image-2.jpeg" alt="Chicago" width="1145" height="800">
+                                <img src="images/carrusel/image-2.jpeg" class="img-fluid" width="1145" height="800">
                                 
                               </div>  
                               <div class="carousel-item">
-                                <img src="images/carrusel/image-3.jpeg" alt="Chicago" width="1145" height="800">
+                                <img src="images/carrusel/image-3.jpeg"  class="img-fluid" width="1145" height="800">
                                 
                               </div>  
                               <div class="carousel-item">
-                                <img src="images/carrusel/image-4.jpeg" alt="Chicago" width="1145" height="800">
+                                <img src="images/carrusel/image-4.jpeg" class="img-fluid" width="1145" height="800">
                                 
                               </div>                                                     
                               <div class="carousel-item">
-                                <img src="images/carrusel/image-5.jpeg" alt="Chicago" width="1145" height="800">
+                                <img src="images/carrusel/image-5.jpeg" class="img-fluid" width="1145" height="800">
                                 
                               </div>  
                             </div>
@@ -152,27 +152,27 @@
                             <div class="p-1"><a href="http://www.odontologia.ues.edu.sv/">Facultad de Odontología</a></div>
                             <div class="p-1"><a href="http://www.medicina.ues.edu.sv/">Facultad de Medicina</a></div>
                             <div class="p-1"><a href="https://humanidades.ues.edu.sv/">Facultad de Ciencias y Humanidades</a></div>
-                            <div class="p-1"><a href="#">Facultad de Jurisprudencia y Ciencias Sociales</a></div>
-                            <div class="p-1"><a href="#">Facultad de Química y Farmacia</a></div>
-                            <div class="p-1"><a href="#">Facultad de Ciencias Naturales y Matemática</a></div>
-                            <div class="p-1"><a href="#">Facultad Multidisciplinaria de Occidente</a></div>
-                            <div class="p-1"><a href="#">Facultad de Ciencias Económicas</a></div>
+                            <div class="p-1"><a href="http://jurisprudencia.ues.edu.sv/sitio/">Facultad de Jurisprudencia y Ciencias Sociales</a></div>
+                            <div class="p-1"><a href="https://www.quimicayfarmacia.ues.edu.sv/">Facultad de Química y Farmacia</a></div>
+                            <div class="p-1"><a href="https://www.cimat.ues.edu.sv/">Facultad de Ciencias Naturales y Matemática</a></div>
+                            <div class="p-1"><a href="http://www.occ.ues.edu.sv/">Facultad Multidisciplinaria de Occidente</a></div>
+                            <div class="p-1"><a href="http://www.fce.ues.edu.sv/">Facultad de Ciencias Económicas</a></div>
                         </div>
                         <div class="col">
                             <p class="header-title">Secretarias</p>     
-                            <div class="p-1"><a href="#">Secretaría General</a></div>
-                            <div class="p-1"><a href="#">Secretaría de Proyección Social</a></div>
-                            <div class="p-1"><a href="#">Secretaría de Comunicaciones</a></div>
-                            <div class="p-1"><a href="#">Secretaría de Arte y Cultura</a></div>
-                            <div class="p-1"><a href="#">Secretaría de Bienestar Universitario</a></div>
-                            <div class="p-1"><a href="#">Secretaría de Relaciones</a></div>
-                            <div class="p-1"><a href="#">Secretaría de Planificación</a></div>
-                            <div class="p-1"><a href="#">Secretaría de Investigaciones Científicas</a></div>
-                            <div class="p-1"><a href="#">Secretaría de Asuntos Académicos</a></div>
+                            <div class="p-1"><a href="http://secretariageneral.ues.edu.sv/">Secretaría General</a></div>
+                            <div class="p-1"><a href="http://proyeccionsocial.ues.edu.sv/">Secretaría de Proyección Social</a></div>
+                            <div class="p-1"><a href="http://www.eluniversitario.ues.edu.sv/">Secretaría de Comunicaciones</a></div>
+                            <div class="p-1"><a href="https://es-es.facebook.com/ArteyCulturaUES/">Secretaría de Arte y Cultura</a></div>
+                            <div class="p-1"><a href="http://www.bienestar.ues.edu.sv/">Secretaría de Bienestar Universitario</a></div>
+                            <div class="p-1"><a href="http://www.ues.edu.sv/secretaria-de-relaciones-nacionales-e-internacionales/">Secretaría de Relaciones</a></div>
+                            <div class="p-1"><a href="https://secplan.ues.edu.sv/">Secretaría de Planificación</a></div>
+                            <div class="p-1"><a href="https://sic.ues.edu.sv/">Secretaría de Investigaciones Científicas</a></div>
+                            <div class="p-1"><a href="http://saa.ues.edu.sv/portal/">Secretaría de Asuntos Académicos</a></div>
                         </div>
                         <div class="col order-last">
                             <p class="header-title">Instituciones</p>
-                            <div class="p-1"><a href="#">Consejo Superior Universitario</a></div>
+                            <div class="p-1"><a href="#">Consejo Supeior Universitario</a></div>
                             <div class="p-1"><a href="#">Asamblea General Universitaria</a></div>
                         </div>
                     </div>                            
