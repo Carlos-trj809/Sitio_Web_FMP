@@ -13,12 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::get('/', function () {
-    return view('index');
-});*/
-
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('InicioSesion', function () {
@@ -44,3 +40,9 @@ Route::get('CienciasEconomicas', function () {
 Route::get('CienciasEducacion', function () {
     return view('Academicos.Departamentos.CienciasEducacion');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
