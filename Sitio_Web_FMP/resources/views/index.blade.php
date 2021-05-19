@@ -22,7 +22,7 @@
         <!-- end page title -->               
 
         <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-8">
                 <div class="card-box">
                     <h1 class="header-title mb-3">Facultad Multidisciplinaria Paracentral</h1>
                     <div class="row">
@@ -36,15 +36,15 @@
                             </ol>
                             <div class="carousel-inner text-center">
                               <div class="carousel-item active">
-                                 <img src="images/carrusel/image-1.jpeg" class="img-fluid" width="1145" height="800" >
+                                 <img src="images/carrusel/image-1.jpeg" class="img-fluid">
                                  
                               </div>
                               <div class="carousel-item">
-                                <img src="images/carrusel/image-2.jpeg" class="img-fluid" width="1145" height="800">
+                                <img src="images/carrusel/image-2.jpeg" class="img-fluid" width="1145">
                                 
                               </div>  
                               <div class="carousel-item">
-                                <img src="images/carrusel/image-3.jpeg"  class="img-fluid" width="1145" height="800">
+                                <img src="images/carrusel/image-3.jpeg"  class="img-fluid" width="1145" >
                                 
                               </div>  
                               <div class="carousel-item">
@@ -68,7 +68,16 @@
                         <!-- end col -->
                     </div> <!-- end row-->
                 </div>  <!-- end card-box-->
-            </div> <!-- end col -->         
+            </div> <!-- end col -->               
+            
+            <div class="col-xl-4">
+                <div class="card-box">
+                    <div class="fb-page" data-href="https://es-la.facebook.com/academicaparacentralues" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://es-la.facebook.com/academicaparacentralues" class="fb-xfbml-parse-ignore"><a href="https://es-la.facebook.com/academicaparacentralues">Académica Paracentral - UES</a>
+                    </blockquote>
+                    </div>
+                </div>
+            </div><!-- end col-->
         </div>
         <!-- end row -->
 
@@ -95,45 +104,18 @@
                     </div>
                 </div> <!-- end card-box -->
             </div><!-- end col -->
-            <div class="col-xl-4">                        
-                <div class="card-box "> 
+
+            <div class="col-xl-4" >                        
+                <div class="card-box container-fluid "> 
                     <h1 class="header-title mb-3">Canales Digitales</h1>                    
                     <a href="https://campus.ues.edu.sv/" class="btn btn-danger btn-block mt-3 text-left">Campus Virtual</a>
                     <a href="https://eel.ues.edu.sv/" class="btn btn-danger btn-block mt-3 text-left">Expediente en linea</a>                      
                     <a href="https://correo.ues.edu.sv/" class="btn btn-danger  btn-block mt-3 text-left">Correo institucional</a>                           
                     <a href="https://www.facebook.com/DistanciaFMP" class="btn btn-danger  btn-block mt-3 text-left">Universidad en linea / Cede Paracentral</a> 
                     <a href="https://www.facebook.com/celeues" class="btn btn-danger btn-block mt-3 text-left">CELEUES</a>
-                    <a href="https://es-la.facebook.com/academicaparacentralues/" class="btn btn-danger btn-block mt-3 text-left mdi mdi-facebook-box mdi-16px">   FACEBOOK - FMP</a>
-                    </a>
                 </div> <!-- end card-box-->                        
             </div> <!-- end col-->
-        </div>
-        <!-- end row -->
-        <div class="row">
-            <div class="col-xl-8">
-                <div class="card-box"> 
-                    <h1 class="header-title mb-3">Eventos</h1>                           
-                    <div class="media p-2 border rounded media">
-                        <img class="mr-3 rounded bx-shadow-lg" src="images/users/avatar-4.jpg" alt="Generic placeholder image" height="80">
-                        <div class="media-body">
-                            <h5 class="mt-0">Louis P. Wheeler</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, at, tempus viverra turpis.
-                        </div>
-                        <a href="" class="btn btn-light mt-3">Leer mas...</a>
-                    </div>
-                    </br>
-                    <div class="media p-2 border rounded">
-                        <img class="mr-3 rounded-circle bx-shadow-lg" src="images/users/avatar-4.jpg" alt="Generic placeholder image" height="80">
-                        <div class="media-body">
-                            <h5 class="mt-0">Louis P. Wheeler</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, at, tempus viverra turpis.
-                        </div>
-                        <a href="" class="btn btn-light mt-3">Leer mas...</a>
-                    </div>
-                    </br>
-                    
-                </div> <!-- end card-box -->
-            </div><!-- end col -->
+            
         </div>
         <!-- end row -->
         <div class="row">
@@ -185,6 +167,8 @@
 @endsection
 
 @section('footerjs')
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0" nonce="sQ6sREaG"></script>
 <!-- Vendor js -->
 <script src="{{ asset('js/vendor.min.js') }}"></script>
 

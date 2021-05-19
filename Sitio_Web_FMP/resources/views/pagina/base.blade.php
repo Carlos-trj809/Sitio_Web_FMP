@@ -171,35 +171,20 @@
                                 <li>
                                     <ul>
                                         <li>
-                                            <a href="#">Administración académica</a>
-                                        </li>
-                                        <li>
                                             <a href="#">Colecturia</a>
                                         </li>
                                         
                                         <li>
-                                            <a href="#">Comunicaciones</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Unidad de tegnologia</br>de la informacion</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Unidad de planificación</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Proyección Social</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Universidad en linea</a>
+                                            <a href="#">Unidad de Tegnologia</br>de la Informacion</a>
                                         </li>
                                         
                                         <li>
-                                            <a href="#">CELEUES</a>
-                                        </li> 
+                                            <a href="#">Unidad de Planificación</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Universidad en Linea</a>
+                                        </li>
                                     </ul>
                                 </li>
                             </ul>

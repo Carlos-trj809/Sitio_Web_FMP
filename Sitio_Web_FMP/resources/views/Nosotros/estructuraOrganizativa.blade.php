@@ -118,9 +118,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>                                        
-                                        <td>Licda. MSc. Yanira Yolanda Guardado Jovel
-                                            <!--<input type="text" class="my-1 form-control" name="" id=""  value="">
-                                            <a class="btn btn-info text-white">Guardar</a>-->
+                                        <td>
+                                            <input type="text" class="my-1 form-control" name="" id=""  value="">
+                                            <a class="btn btn-info text-white">Guardar</a>
                                         </td>
                                         <th class="text-nowrap" scope="row">Jefa del Departamento de Ciencias Económicas</th>
                                     </tr>
