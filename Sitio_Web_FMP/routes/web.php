@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
 Route::get('InicioSesion', function () {
     return view('Sesion.inicioSesion');
 });
@@ -41,8 +45,8 @@ Route::get('CienciasEducacion', function () {
     return view('Academicos.Departamentos.CienciasEducacion');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::get('EstructuraOrganizativa', function () {
+    return view('Nosotros.estructuraOrganizativa');
+});
 
 require __DIR__.'/auth.php';

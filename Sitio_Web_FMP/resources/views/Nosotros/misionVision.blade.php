@@ -12,7 +12,7 @@
         <div class="my-4"></div>
         <!-- end page title -->           
 
-        <div class="row text">
+        <div class="row">
             <div class="col-xl-6">
                 <div class="card-box" height="800"> 
                     <h3 class="text-center">Mision</h3>

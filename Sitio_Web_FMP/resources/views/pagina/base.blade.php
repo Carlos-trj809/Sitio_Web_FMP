@@ -105,7 +105,7 @@
                                     </ul>
                                 </li>
                                 <li class="has-submenu">
-                                    <a href="EstructuraOrganizativa.html">Estructura Organizativa&nbsp;</a>                                    
+                                    <a href="{{ asset('EstructuraOrganizativa') }}">Estructura Organizativa&nbsp;</a>                                    
                                 </li>                               
                     
                             </ul>
