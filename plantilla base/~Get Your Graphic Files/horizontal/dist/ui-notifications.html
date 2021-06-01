@@ -790,6 +790,7 @@
                         </div> <!-- end card-box-->
                     </div> <!-- end col -->
                 </div>
+				<button type="button" id="boton" >boton</button>
                 <!-- end row -->
 
                 
@@ -911,6 +912,7 @@
                             <p class="inbox-item-date">10:15 AM</p>
 
                         </div>
+						
                     </div> <!-- end inbox-widget -->
                 </div> <!-- end .p-3-->
 
@@ -932,6 +934,12 @@
 
         <!-- App js -->
         <script src="assets/js/app.min.js"></script>
+		
+		<script>
+        $('#boton').on("click",function () {
+		var myToast = $.toast('Some toast that needs to be removed.');
+        });
+    	</script>
         
     </body>
 </html>

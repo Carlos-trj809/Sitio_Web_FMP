@@ -175,9 +175,9 @@
                                         </li>
                                         
                                         <li>
-                                            <a href="#">Unidad de Tegnologia</br>de la Informacion</a>
+                                            <a href="#">Unidad de Tegnologia<br>de la Informacion</a>
                                         </li>
-                                        
+
                                         <li>
                                             <a href="#">Unidad de Planificación</a>
                                         </li>
@@ -200,15 +200,12 @@
                         <li class="has-submenu p-1 float-right">
                             @if (Route::has('login'))
                                     @auth
-                                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+                                        <a href="{{ url('/index') }}" class="text-sm text-gray-700 underline">Dashboard</a>
                                     @else
                                         <a href="{{ asset('InicioSesion') }}"  class="rounded btn text-left">
                                             <i class="mdi mdi-account mdi-24px"></i>
                                             Iniciar Sesión
-                                        </a>                
-                                        <!-- @if (Route::has('register'))
-                                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                                        @endif-->
+                                        </a>      
                                     @endauth
                             @endif                            
                         </li>
